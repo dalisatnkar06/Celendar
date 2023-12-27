@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: rgb(104, 104, 203);
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#authorize_button {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#authorize_button:hover {
+    background-color: rgb(104, 104, 203);
+    color: white;
+}
+
+#signout_button {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#signout_button:hover {
+    background-color: rgb(104, 104, 203);
+    color: white;
+}
+
+input {
+    background-color: rgb(104, 104, 203);
+    border: none;
+    height: 35px;
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#butt {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#butt:hover {
+    background-color: rgb(104, 104, 203);
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 13rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+#myChart,
+#chartTwo {
+    margin-top: 50px;
+    margin-left: 13rem;
+}
+
+#chartTwo {
+    margin-top: 50px;
+}
+
+#tableHead tr th {
+    background-color: rgb(104, 104, 203);
+    border: hidden;
+    color: black;
+}
+
+table tr td {
+    vertical-align: middle;
+    text-align: center;
+}
